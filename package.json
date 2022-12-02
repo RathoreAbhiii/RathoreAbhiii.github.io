@@ -1,0 +1,24 @@
+{
+  "name": "bidder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RathoreAbhiii/Bidder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RathoreAbhiii/Bidder/issues"
+  },
+  "homepage": "https://github.com/RathoreAbhiii/Bidder#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.7.4"
+  }
+}

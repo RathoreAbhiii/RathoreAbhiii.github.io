@@ -1,0 +1,4 @@
+    MySQL        VS      NoSQL 
+-> Table                Collection
+-> Row                   Document
+-> Column                Fields          

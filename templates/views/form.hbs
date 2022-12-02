@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your listing</title>
+    <link rel="stylesheet" href="css/form.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    {{>header}}
+<br>
+<br>
+<section class="sec1">
+    <p>
+    <h1>Create Your Listing</h1>
+    <img src="imgs/note.jpeg" alt="" class="img1">
+</p>   
+</section>
+ <section id="img-login">
+    <div id="back-img">
+        <img src="imgs/loginbackimg.png">
+    </div>
+    <div class="form">
+        <h2> Item Details</h2>
+        <p>
+        <label for="name" class="lname">Item Name</label> &emsp;&emsp;
+        <input type="text" name="Name" id="name" placeholder="Enter Item Name">
+        </p>
+        <p>
+            <label for="desc" class="ldesc">Item Description</label> &emsp;&emsp;
+            <textarea name="desc" id="desc" cols="20" rows="2" placeholder="Enter Item Description"></textarea>
+            </p>
+            <p>
+                <label for="url" class="lurl">Item Image </label> &emsp;&emsp;
+                <input type="file" id="url" name="url"
+                    accept="image/png, image/jpeg">
+                </p>
+                <p>
+                    <label for="startbid" class="lstartbid" >Starting Bid </label> &emsp;&emsp;
+                    <input type="number" name="startbid" id="startbid" placeholder="Enter Starting bid" >
+                    </p>   
+                    <p>
+                    <label for="cate" class="lcate">Category</label>
+                    <select class="cate">
+                
+                        <option >Clothing</option>
+                        <option >Books</option>
+                        <option >Artifact</option>
+                        <option >Painting</option>
+                        <option >Collectibles</option>
+
+                        
+                      </select>
+                    </p>
+                <button class="submit">Submit</button>
+    </div>
+</section> 
+
+{{>footer}}
+
+</body>
+</html>

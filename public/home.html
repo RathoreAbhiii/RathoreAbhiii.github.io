@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, iniital-scale=1">
+    <link rel="stylesheet" href="css/home_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="script" href="home.js">
+</head>
+
+
+<body>
+    <header>
+        <h2 class="logo">Bidder.</h2>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="wishlist.html" target="_blank">Watchlist</a></li>
+                <li><a href="listing.html" target="_blank">Listings</a></li>
+                <li><a href="#footer">Contact</a></li>
+                <li><a href="form.html" target="_blank">List</a></li>
+            </ul>
+        </nav>
+        <textarea class="searchbox" placeholder="Search"></textarea>
+        <img class="search_img" src="imgs/Search.png">
+    </header>
+    <section class="welcome">
+        <div class="outer__div">
+            <div class="inner__div1">
+                <p class="welcome__desc">Welcome To Bidder!</p>
+                <h1>Join a live auction <br>
+                    or start your own.</h1>
+                <p class="list__items">List an item that you have had your hands on for a while<br>
+                    or search and add an item to your long incomplete <br>collection.
+                </p>
+                <a class="nav__button" href="login.html" target="_blank"><button>Login/SignUp</button></a>
+                <img class="homeBid" src="imgs/homeBid.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="works">
+        <div class="works_outer__div">
+            <div class="h3line"></div>
+            <h3 class="howHeading">How it Works?</h3>
+            <p class="how__desc">Everything you need to know when you're looking to buy<br> or sell items - all in one
+                place.</p>
+            <div class="works__items">
+                <img class="works__loginImg" src="imgs/FrameLogin.png">
+                <img class="works__arr1" src="imgs/Arrow.png">
+                <p class="works__signup">SignUp</p>
+                <a class="works__login" href="login.html" target="_blank">Login/SignUp</a>
+
+                <img class="works__listImg" src="imgs/FrameList.png">
+                <img class="works__arr2" src="imgs/Arrow.png">
+                <p class="works__listItems">List Items</p>
+                <a class="works__howtolist" href="listing.html" target="_blank">How to list</a>
+
+                <img class="works__auctionImg" src="imgs/iconAuction House.png">
+                <img class="works__arr3" src="imgs/Arrow.png">
+                <p class="works__auctionItems">Join an auction</p>
+                <a class="works__auction" href="#">How to join</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="listings">
+        <div class="listings__outerdiv">
+            <h4 class="listings__h4">Listings</h4>
+            <p class="listings__checkout">Check out all the upcoming/ongoing auctions.</p>
+            <a class="listings__viewall" href="listing.html" target="_blank">View All Listings</a>
+            <img class="listings__arr1" src="imgs/Arrow.png">
+            <!-- Item Cards -->
+            <div class="listings_item1">
+                <img class="item1" src="imgs/Gryffindor.png">
+                <p class="item1_text">Gryffindor Mitten/Fingerless Gloves</p>
+                <p class="item1_startbid">Starting Bid : Rs 1.2k</p>
+                <p class="item1_currbid">Current Bid : Rs 4.8k</p>
+                <img class="item1_clock" src="imgs/FrameClock.png">
+                <p class="item1_status">Status</p>
+                <p class="item1_bids_num">0</p>
+                <p class="item1_bids">Bids</p>
+                <img class="item1_person" src="imgs/FramePerson.png">
+                <p class="item1_person_text">30+ Waiting</p>
+            </div>
+
+            <div class="listings_item2">
+                <img class="item2" src="imgs/Maradona T-Shirt.png">
+                <p class="item2_text">Diego Maradona’s 1986<br> World Cup T-Shirt
+                </p>
+                <p class="item2_startbid">Starting Bid : Rs 500k</p>
+                <p class="item2_currbid">Closing Bid : Rs 7000k</p>
+                <div class="item2__infodiv">
+                    <img class="item2_clock" src="imgs/FrameLock.png">
+                    <p class="item2_status">Status</p>
+                    <p class="item2_bids_num">60</p>
+                    <p class="item2_bids">Bids</p>
+                    <img class="item2_person" src="imgs/FramePerson.png">
+                    <p class="item2_person_text">45 Bidders</p>
+                </div>
+            </div>
+
+            <div class="listings_item3">
+                <a href="product.html" target="_blank"><img class="item3" src="imgs/Armagnac.png"></a>
+                <p class="item3_text">Armagnac, 1943
+                </p>
+                <p class="item3_startbid">Starting Bid : Rs 65k</p>
+                <p class="item3_currbid">Current Bid : Rs 85k</p>
+                <div class="item3__infodiv">
+                    <img class="item3_clock" src="imgs/FrameUnlock.png">
+                    <p class="item3_status">Status</p>
+                    <p class="item3_bids_num">17</p>
+                    <p class="item3_bids">Bids</p>
+                    <img class="item3_person" src="imgs/FramePerson.png">
+                    <p class="item3_person_text">10 Bidders</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="views">
+        <div class="views_outerdiv">
+            <div class="views_viewbox"></div>
+            <div class="views_books"></div>
+            <p class="views_heading">You've found<br>an item you<br>love.</p>
+            <p class="views_desc">At Bidder, we make sure that our<br>users enjoy a trouble free<br>experience while surfing through<br>our website so that we can build<br>their trust and assure them the<br>best services.</p>
+            <img class="views_books" src="imgs/Books.png">
+            <div class="views_box">
+                <img class="views_box_users" src="imgs/usersUsers.png">
+                <p class="views_box_heading">10,000+</p>
+                <p class="views_box_desc">Views on this item in the<br>past 24 hours.</p>
+                <hr class="views_box_line">
+                <img class="views_box_arrow" src="imgs/Rising Arrow.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="info_outerdiv">
+            <p class="info_num1">2,500+</p>
+            <p class="info_num1_desc">Items For Sale</p>
+            
+            <p class="info_num2">500+</p>
+            <p class="info_num2_desc">Auctions Hosted Successfully</p>
+            
+            <p class="info_num3">170+</p>
+            <p class="info_num3_desc">Verified Users</p>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="footer_outerdiv">
+            <p class="footer_product">Product</p>
+            <a class="product_listing" href="#">Listing</a>
+            <a class="product_agents" href="#">Agents</a>
+            <a class="product_blog" href="#">Blog</a>
+
+            <p class="footer_company">Company</p>
+            <a class="company_partnerships" href="#">Partnerships</a>
+            <a class="company_terms" href="#">Terms Of Use</a>
+            <a class="company_privacy" href="#">Privacy</a>
+
+            <p class="footer_touch">Get in touch</p>
+            <p class="touch_connect">Connect with us.</p>
+
+            <!-- Icons Hover effect -->
+            <div class="wrapper">
+                <a class="hover-fx" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="hover-fx"><i class="fab fa-facebook"></i></a>
+                <a class="hover-fx"><i class="fab fa-twitter"></i></a>
+            </div>
+
+            <!-- <a href="#"><img class="touch_fb" src="imgs/Facebook iconfb logo.png"></a>
+            <a href="#"><img class="touch_tw" src="imgs/twitter icontwitter.png"></a>
+            <a href="#"><img class="touch_in" src="imgs/lindedin iconlinkedin.png"></a> -->
+            
+            <p class="footer_contact">Contact Us</p>
+            <p class="contact_phone">+91-5592669856</p>
+            <p class="contact_mail">Mail Us</p>
+            <img class="mail_icon" src="imgs/emailMail.png">
+            <a class="contact_mailid">bidder@bmu.edu.in</a>
+            <p class="contact_address">67th Milestone, NH 48,<br>Kapriwas, Haryana<br>122413</p>
+        </div>
+    </footer>
+</body>
